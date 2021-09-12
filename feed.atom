@@ -2,19 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://atrist.github.io</id>
     <title>Atrist</title>
-    <updated>2021-09-10T12:10:37.020Z</updated>
+    <updated>2021-09-12T13:51:45.746Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://atrist.github.io"/>
     <link rel="self" href="https://atrist.github.io/feed.atom"/>
     <subtitle>前端的基础知识集中, 相关业务场景的解决方案集中, 项目源码阅读过程中的一些感悟</subtitle>
-    <entry>
-        <title type="html"><![CDATA[1109. 航班预订统计]]></title>
-        <id>https://atrist.github.io/posts/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F%E8%AE%A1.html</id>
-        <link href="https://atrist.github.io/posts/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F%E8%AE%A1.html">
-        </link>
-        <updated>2021-08-31T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[这里有 n 个航班，它们分别从 1 到 n 进行编号。]]></summary>
-    </entry>
     <entry>
         <title type="html"><![CDATA[1221. 分割平衡字符串]]></title>
         <id>https://atrist.github.io/posts/1221.%20%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.html</id>
@@ -24,12 +16,12 @@
         <summary type="html"><![CDATA[在一个 平衡字符串 中，'L' 和 'R' 字符的数量是相同的。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1480. 一维数组的动态和]]></title>
-        <id>https://atrist.github.io/posts/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.html</id>
-        <link href="https://atrist.github.io/posts/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.html">
+        <title type="html"><![CDATA[1109. 航班预订统计]]></title>
+        <id>https://atrist.github.io/posts/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F%E8%AE%A1.html</id>
+        <link href="https://atrist.github.io/posts/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F%E8%AE%A1.html">
         </link>
-        <updated>2021-08-28T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] = sum(nums[0]…nums[i]) 。]]></summary>
+        <updated>2021-08-31T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这里有 n 个航班，它们分别从 1 到 n 进行编号。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[1588. 所有奇数长度子数组的和]]></title>
@@ -38,6 +30,14 @@
         </link>
         <updated>2021-08-29T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[给你一个正整数数组 arr ，请你计算所有可能的奇数长度子数组的和。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1480. 一维数组的动态和]]></title>
+        <id>https://atrist.github.io/posts/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.html</id>
+        <link href="https://atrist.github.io/posts/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.html">
+        </link>
+        <updated>2021-08-28T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] = sum(nums[0]…nums[i]) 。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[1646. 获取生成数组中的最大值]]></title>
@@ -88,20 +88,28 @@
         <summary type="html"><![CDATA[给定一个正整数数组 w ，其中 w[i] 代表下标 i 的权重（下标从 0 开始），请写一个函数 pickIndex ，它可以随机地获取下标 i，选取下标 i 的概率与 w[i] 成正比。]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[600. 不含连续1的非负整数]]></title>
+        <id>https://atrist.github.io/posts/600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0.html</id>
+        <link href="https://atrist.github.io/posts/600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0.html">
+        </link>
+        <updated>2021-09-11T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给定一个正整数 n，找出小于或等于 n 的非负整数中，其二进制表示不包含 连续的1 的个数。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[678. 有效的括号字符串]]></title>
+        <id>https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html</id>
+        <link href="https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
+        </link>
+        <updated>2021-09-12T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给定一个只包含三种字符的字符串：（ ，） 和 *，写一个函数来检验这个字符串是否为有效字符串。有效字符串具有如下规则：]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[68. 文本左右对齐]]></title>
         <id>https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html</id>
         <link href="https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html">
         </link>
         <updated>2021-09-09T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[给定一个单词数组和一个长度 maxWidth，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[704. 二分查找]]></title>
-        <id>https://atrist.github.io/posts/704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html</id>
-        <link href="https://atrist.github.io/posts/704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html">
-        </link>
-        <updated>2021-09-06T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[787. K 站中转内最便宜的航班]]></title>
@@ -112,19 +120,20 @@
         <summary type="html"><![CDATA[有 n 个城市通过一些航班连接。给你一个数组 flights ，其中 flights[i] = [fromi, toi, pricei] ，表示该航班都从城市 fromi 开始，以价格 toi 抵达 pricei。]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[704. 二分查找]]></title>
+        <id>https://atrist.github.io/posts/704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html</id>
+        <link href="https://atrist.github.io/posts/704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html">
+        </link>
+        <updated>2021-09-06T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[789. 逃脱阻碍者]]></title>
         <id>https://atrist.github.io/posts/789.%20%E9%80%83%E8%84%B1%E9%98%BB%E7%A2%8D%E8%80%85.html</id>
         <link href="https://atrist.github.io/posts/789.%20%E9%80%83%E8%84%B1%E9%98%BB%E7%A2%8D%E8%80%85.html">
         </link>
         <updated>2021-08-22T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[你在进行一个简化版的吃豆人游戏。你从 [0, 0] 点开始出发，你的目的地是 target = [xtarget, ytarget] 。地图上有一些阻碍者，以数组 ghosts 给出，第 i 个阻碍者从 ghosts[i] = [xi, yi] 出发。所有输入均为 整数坐标 。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[797. 所有可能的路径]]></title>
-        <id>https://atrist.github.io/posts/797.%20%E6%89%80%E6%9C%89%E5%8F%AF%E8%83%BD%E7%9A%84%E8%B7%AF%E5%BE%84.html</id>
-        <link href="https://atrist.github.io/posts/797.%20%E6%89%80%E6%9C%89%E5%8F%AF%E8%83%BD%E7%9A%84%E8%B7%AF%E5%BE%84.html">
-        </link>
-        <updated>2021-08-25T10:00:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[881. 救生艇]]></title>
@@ -135,11 +144,11 @@
         <summary type="html"><![CDATA[第 i 个人的体重为 people[i]，每艘船可以承载的最大重量为 limit。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[文件夹目的]]></title>
-        <id>https://atrist.github.io/posts/</id>
-        <link href="https://atrist.github.io/posts/">
+        <title type="html"><![CDATA[797. 所有可能的路径]]></title>
+        <id>https://atrist.github.io/posts/797.%20%E6%89%80%E6%9C%89%E5%8F%AF%E8%83%BD%E7%9A%84%E8%B7%AF%E5%BE%84.html</id>
+        <link href="https://atrist.github.io/posts/797.%20%E6%89%80%E6%9C%89%E5%8F%AF%E8%83%BD%E7%9A%84%E8%B7%AF%E5%BE%84.html">
         </link>
-        <updated>2021-09-10T12:10:37.015Z</updated>
+        <updated>2021-08-25T10:00:00.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[剑指 Offer 10- I. 斐波那契数列]]></title>
@@ -150,19 +159,10 @@
         <summary type="html"><![CDATA[斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[剑指 Offer 22. 链表中倒数第k个节点]]></title>
-        <id>https://atrist.github.io/posts/%E5%89%91%E6%8C%87%20Offer%2022.%20%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.html</id>
-        <link href="https://atrist.github.io/posts/%E5%89%91%E6%8C%87%20Offer%2022.%20%E9%93%BE%E8%A1%A8%E4%B8%AD%E5%80%92%E6%95%B0%E7%AC%ACk%E4%B8%AA%E8%8A%82%E7%82%B9.html">
+        <title type="html"><![CDATA[文件夹目的]]></title>
+        <id>https://atrist.github.io/posts/</id>
+        <link href="https://atrist.github.io/posts/">
         </link>
-        <updated>2021-09-02T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[输入一个链表，输出该链表中倒数第k个节点。为了符合大多数人的习惯，本题从1开始计数，即链表的尾节点是倒数第1个节点。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[面试题 17.14. 最小K个数]]></title>
-        <id>https://atrist.github.io/posts/%E9%9D%A2%E8%AF%95%E9%A2%98%2017.14.%20%E6%9C%80%E5%B0%8FK%E4%B8%AA%E6%95%B0.html</id>
-        <link href="https://atrist.github.io/posts/%E9%9D%A2%E8%AF%95%E9%A2%98%2017.14.%20%E6%9C%80%E5%B0%8FK%E4%B8%AA%E6%95%B0.html">
-        </link>
-        <updated>2021-09-03T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[设计一个算法，找出数组中最小的k个数。以任意顺序返回这k个数均可。]]></summary>
+        <updated>2021-09-12T13:51:45.742Z</updated>
     </entry>
 </feed>
