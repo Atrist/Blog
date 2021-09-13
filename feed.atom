@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://atrist.github.io</id>
     <title>Atrist</title>
-    <updated>2021-09-13T11:35:15.897Z</updated>
+    <updated>2021-09-13T14:05:49.615Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://atrist.github.io"/>
     <link rel="self" href="https://atrist.github.io/feed.atom"/>
@@ -40,20 +40,20 @@
         <summary type="html"><![CDATA[给你一个正整数数组 arr ，请你计算所有可能的奇数长度子数组的和。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[165. 比较版本号]]></title>
-        <id>https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html</id>
-        <link href="https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html">
-        </link>
-        <updated>2021-09-01T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[给你两个版本号 version1 和 version2 ，请你比较它们。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[1646. 获取生成数组中的最大值]]></title>
         <id>https://atrist.github.io/posts/1646.%20%E8%8E%B7%E5%8F%96%E7%94%9F%E6%88%90%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</id>
         <link href="https://atrist.github.io/posts/1646.%20%E8%8E%B7%E5%8F%96%E7%94%9F%E6%88%90%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">
         </link>
         <updated>2021-08-23T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[返回生成数组 nums 中的 最大 值。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[165. 比较版本号]]></title>
+        <id>https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html</id>
+        <link href="https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html">
+        </link>
+        <updated>2021-09-01T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给你两个版本号 version1 和 version2 ，请你比较它们。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[447. 回旋镖的数量]]></title>
@@ -72,20 +72,20 @@
         <summary type="html"><![CDATA[一个班级里有 n 个学生，编号为 0 到 n - 1 。每个学生会依次回答问题，编号为 0 的学生先回答，然后是编号为 1 的学生，以此类推，直到编号为 n - 1 的学生，然后老师会重复这个过程，重新从编号为 0 的学生开始回答问题。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[502. IPO]]></title>
-        <id>https://atrist.github.io/posts/502.%20IPO.html</id>
-        <link href="https://atrist.github.io/posts/502.%20IPO.html">
-        </link>
-        <updated>2021-09-08T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[假设 力扣（LeetCode）即将开始 IPO 。为了以更高的价格将股票卖给风险投资公司，力扣 希望在 IPO 之前开展一些项目以增加其资本。 由于资源有限，它只能在 IPO 之前完成最多 k 个不同的项目。帮助 力扣 设计完成最多 k 个不同项目后得到最大总资本的方式。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[470. 用 Rand7() 实现 Rand10()]]></title>
         <id>https://atrist.github.io/posts/470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10().html</id>
         <link href="https://atrist.github.io/posts/470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10().html">
         </link>
         <updated>2021-09-05T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[已有方法 rand7 可生成 1 到 7 范围内的均匀随机整数，试写一个方法 rand10 生成 1 到 10 范围内的均匀随机整数。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[502. IPO]]></title>
+        <id>https://atrist.github.io/posts/502.%20IPO.html</id>
+        <link href="https://atrist.github.io/posts/502.%20IPO.html">
+        </link>
+        <updated>2021-09-08T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[假设 力扣（LeetCode）即将开始 IPO 。为了以更高的价格将股票卖给风险投资公司，力扣 希望在 IPO 之前开展一些项目以增加其资本。 由于资源有限，它只能在 IPO 之前完成最多 k 个不同的项目。帮助 力扣 设计完成最多 k 个不同项目后得到最大总资本的方式。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[528. 按权重随机选择]]></title>
@@ -163,6 +163,6 @@
         <id>https://atrist.github.io/posts/</id>
         <link href="https://atrist.github.io/posts/">
         </link>
-        <updated>2021-09-13T11:35:15.893Z</updated>
+        <updated>2021-09-13T14:05:49.610Z</updated>
     </entry>
 </feed>
