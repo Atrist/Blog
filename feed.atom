@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://atrist.github.io</id>
     <title>Atrist</title>
-    <updated>2021-09-14T23:50:56.221Z</updated>
+    <updated>2021-09-15T12:11:25.698Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://atrist.github.io"/>
     <link rel="self" href="https://atrist.github.io/feed.atom"/>
@@ -32,20 +32,20 @@
         <summary type="html"><![CDATA[给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] = sum(nums[0]…nums[i]) 。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[162. 寻找峰值]]></title>
-        <id>https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html</id>
-        <link href="https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html">
-        </link>
-        <updated>2021-09-15T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[峰值元素是指其值严格大于左右相邻值的元素。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[1588. 所有奇数长度子数组的和]]></title>
         <id>https://atrist.github.io/posts/1588.%20%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E9%95%BF%E5%BA%A6%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E5%92%8C.html</id>
         <link href="https://atrist.github.io/posts/1588.%20%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E9%95%BF%E5%BA%A6%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E5%92%8C.html">
         </link>
         <updated>2021-08-29T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[给你一个正整数数组 arr ，请你计算所有可能的奇数长度子数组的和。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[162. 寻找峰值]]></title>
+        <id>https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html</id>
+        <link href="https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html">
+        </link>
+        <updated>2021-09-15T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[峰值元素是指其值严格大于左右相邻值的元素。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[1646. 获取生成数组中的最大值]]></title>
@@ -56,20 +56,20 @@
         <summary type="html"><![CDATA[返回生成数组 nums 中的 最大 值。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[165. 比较版本号]]></title>
-        <id>https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html</id>
-        <link href="https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html">
-        </link>
-        <updated>2021-09-01T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[给你两个版本号 version1 和 version2 ，请你比较它们。]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[1894. 找到需要补充粉笔的学生编号]]></title>
         <id>https://atrist.github.io/posts/1894.%20%E6%89%BE%E5%88%B0%E9%9C%80%E8%A6%81%E8%A1%A5%E5%85%85%E7%B2%89%E7%AC%94%E7%9A%84%E5%AD%A6%E7%94%9F%E7%BC%96%E5%8F%B7.html</id>
         <link href="https://atrist.github.io/posts/1894.%20%E6%89%BE%E5%88%B0%E9%9C%80%E8%A6%81%E8%A1%A5%E5%85%85%E7%B2%89%E7%AC%94%E7%9A%84%E5%AD%A6%E7%94%9F%E7%BC%96%E5%8F%B7.html">
         </link>
         <updated>2021-09-10T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[一个班级里有 n 个学生，编号为 0 到 n - 1 。每个学生会依次回答问题，编号为 0 的学生先回答，然后是编号为 1 的学生，以此类推，直到编号为 n - 1 的学生，然后老师会重复这个过程，重新从编号为 0 的学生开始回答问题。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[165. 比较版本号]]></title>
+        <id>https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html</id>
+        <link href="https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html">
+        </link>
+        <updated>2021-09-01T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给你两个版本号 version1 和 version2 ，请你比较它们。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[447. 回旋镖的数量]]></title>
@@ -120,20 +120,20 @@
         <summary type="html"><![CDATA[给定一个正整数 n，找出小于或等于 n 的非负整数中，其二进制表示不包含 连续的1 的个数。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[678. 有效的括号字符串]]></title>
-        <id>https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html</id>
-        <link href="https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
-        </link>
-        <updated>2021-09-12T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[给定一个只包含三种字符的字符串：（ ，） 和 *，写一个函数来检验这个字符串是否为有效字符串。有效字符串具有如下规则：]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[68. 文本左右对齐]]></title>
         <id>https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html</id>
         <link href="https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html">
         </link>
         <updated>2021-09-09T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[给定一个单词数组和一个长度 maxWidth，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[678. 有效的括号字符串]]></title>
+        <id>https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html</id>
+        <link href="https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
+        </link>
+        <updated>2021-09-12T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给定一个只包含三种字符的字符串：（ ，） 和 *，写一个函数来检验这个字符串是否为有效字符串。有效字符串具有如下规则：]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[704. 二分查找]]></title>
