@@ -20,18 +20,18 @@
             "date_modified": "2021-09-07T10:00:00.000Z"
         },
         {
-            "id": "https://atrist.github.io/posts/1588.%20%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E9%95%BF%E5%BA%A6%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E5%92%8C.html",
-            "url": "https://atrist.github.io/posts/1588.%20%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E9%95%BF%E5%BA%A6%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E5%92%8C.html",
-            "title": "1588. 所有奇数长度子数组的和",
-            "summary": "给你一个正整数数组 arr ，请你计算所有可能的奇数长度子数组的和。",
-            "date_modified": "2021-08-29T10:00:00.000Z"
-        },
-        {
             "id": "https://atrist.github.io/posts/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.html",
             "url": "https://atrist.github.io/posts/1480.%20%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%8A%A8%E6%80%81%E5%92%8C.html",
             "title": "1480. 一维数组的动态和",
             "summary": "给你一个数组 nums 。数组「动态和」的计算公式为：runningSum[i] = sum(nums[0]…nums[i]) 。",
             "date_modified": "2021-08-28T10:00:00.000Z"
+        },
+        {
+            "id": "https://atrist.github.io/posts/1588.%20%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E9%95%BF%E5%BA%A6%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E5%92%8C.html",
+            "url": "https://atrist.github.io/posts/1588.%20%E6%89%80%E6%9C%89%E5%A5%87%E6%95%B0%E9%95%BF%E5%BA%A6%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E5%92%8C.html",
+            "title": "1588. 所有奇数长度子数组的和",
+            "summary": "给你一个正整数数组 arr ，请你计算所有可能的奇数长度子数组的和。",
+            "date_modified": "2021-08-29T10:00:00.000Z"
         },
         {
             "id": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
@@ -126,18 +126,18 @@
             "date_modified": "2021-09-11T10:00:00.000Z"
         },
         {
-            "id": "https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html",
-            "url": "https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html",
-            "title": "68. 文本左右对齐",
-            "summary": "给定一个单词数组和一个长度 maxWidth，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。",
-            "date_modified": "2021-09-09T10:00:00.000Z"
-        },
-        {
             "id": "https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html",
             "url": "https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html",
             "title": "678. 有效的括号字符串",
             "summary": "给定一个只包含三种字符的字符串：（ ，） 和 *，写一个函数来检验这个字符串是否为有效字符串。有效字符串具有如下规则：",
             "date_modified": "2021-09-12T10:00:00.000Z"
+        },
+        {
+            "id": "https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html",
+            "url": "https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html",
+            "title": "68. 文本左右对齐",
+            "summary": "给定一个单词数组和一个长度 maxWidth，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。",
+            "date_modified": "2021-09-09T10:00:00.000Z"
         },
         {
             "id": "https://atrist.github.io/posts/704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.html",
