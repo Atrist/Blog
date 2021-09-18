@@ -41,6 +41,13 @@
             "date_modified": "2021-08-23T10:00:00.000Z"
         },
         {
+            "id": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
+            "url": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
+            "title": "162. 寻找峰值",
+            "summary": "峰值元素是指其值严格大于左右相邻值的元素。",
+            "date_modified": "2021-09-15T10:00:00.000Z"
+        },
+        {
             "id": "https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html",
             "url": "https://atrist.github.io/posts/165.%20%E6%AF%94%E8%BE%83%E7%89%88%E6%9C%AC%E5%8F%B7.html",
             "title": "165. 比较版本号",
@@ -53,13 +60,6 @@
             "title": "1894. 找到需要补充粉笔的学生编号",
             "summary": "一个班级里有 n 个学生，编号为 0 到 n - 1 。每个学生会依次回答问题，编号为 0 的学生先回答，然后是编号为 1 的学生，以此类推，直到编号为 n - 1 的学生，然后老师会重复这个过程，重新从编号为 0 的学生开始回答问题。",
             "date_modified": "2021-09-10T10:00:00.000Z"
-        },
-        {
-            "id": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
-            "url": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
-            "title": "162. 寻找峰值",
-            "summary": "峰值元素是指其值严格大于左右相邻值的元素。",
-            "date_modified": "2021-09-15T10:00:00.000Z"
         },
         {
             "id": "https://atrist.github.io/posts/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).html",
