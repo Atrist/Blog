@@ -34,13 +34,6 @@
             "date_modified": "2021-08-29T10:00:00.000Z"
         },
         {
-            "id": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
-            "url": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
-            "title": "162. 寻找峰值",
-            "summary": "峰值元素是指其值严格大于左右相邻值的元素。",
-            "date_modified": "2021-09-15T10:00:00.000Z"
-        },
-        {
             "id": "https://atrist.github.io/posts/1646.%20%E8%8E%B7%E5%8F%96%E7%94%9F%E6%88%90%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html",
             "url": "https://atrist.github.io/posts/1646.%20%E8%8E%B7%E5%8F%96%E7%94%9F%E6%88%90%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html",
             "title": "1646. 获取生成数组中的最大值",
@@ -60,6 +53,13 @@
             "title": "1894. 找到需要补充粉笔的学生编号",
             "summary": "一个班级里有 n 个学生，编号为 0 到 n - 1 。每个学生会依次回答问题，编号为 0 的学生先回答，然后是编号为 1 的学生，以此类推，直到编号为 n - 1 的学生，然后老师会重复这个过程，重新从编号为 0 的学生开始回答问题。",
             "date_modified": "2021-09-10T10:00:00.000Z"
+        },
+        {
+            "id": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
+            "url": "https://atrist.github.io/posts/162.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.html",
+            "title": "162. 寻找峰值",
+            "summary": "峰值元素是指其值严格大于左右相邻值的元素。",
+            "date_modified": "2021-09-15T10:00:00.000Z"
         },
         {
             "id": "https://atrist.github.io/posts/208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91).html",
