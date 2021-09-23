@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>RTCPeerConnection | Atrist</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="alternate" type="application/rss+xml" href="https://atrist.github.io/rss.xml" title="Atrist RSS Feed">
+    <link rel="alternate" type="application/atom+xml" href="https://atrist.github.io/feed.atom" title="Atrist Atom Feed">
+    <link rel="alternate" type="application/json" href="https://atrist.github.io/feed.json" title="Atrist JSON Feed">
+    <meta name="description" content="浏览器端最重要的webrtc api之一，它是一个类，包含了许多函数，在这里介绍在一次webrtc建立的过程中，所涉及到API">
+    <meta name="twitter:title" content="RTCPeerConnection">
+    <meta name="twitter:description" content="浏览器端最重要的webrtc api之一，它是一个类，包含了许多函数，在这里介绍在一次webrtc建立的过程中，所涉及到API">
+    <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="RTCPeerConnection">
+    <meta property="og:description" content="浏览器端最重要的webrtc api之一，它是一个类，包含了许多函数，在这里介绍在一次webrtc建立的过程中，所涉及到API">
+    <meta property="og:site_name" content="Atrist">
+    <meta itemprop="name" content="RTCPeerConnection">
+    <meta itemprop="description" content="浏览器端最重要的webrtc api之一，它是一个类，包含了许多函数，在这里介绍在一次webrtc建立的过程中，所涉及到API">
+    <meta property="og:url" content="/answer/webRTC/02-RTCPeerConnection.html">
+    <meta name="twitter:url" content="/answer/webRTC/02-RTCPeerConnection.html">
+    <meta name="google-site-verification" content="dmBwuwXMb8fdF5HD1TOPyGTFAQUzV9O9vN4Mh06slnY">
+    <meta name="baidu-site-verification" content="code-HK08p9tJHw">
+    
+    <link rel="preload" href="/assets/css/0.styles.03925f33.css" as="style"><link rel="preload" href="/assets/js/app.4fdca032.js" as="script"><link rel="preload" href="/assets/js/2.4cfc0aaf.js" as="script"><link rel="preload" href="/assets/js/27.dd055a0f.js" as="script"><link rel="prefetch" href="/assets/js/10.072a4458.js"><link rel="prefetch" href="/assets/js/100.c426e08a.js"><link rel="prefetch" href="/assets/js/101.b144b0ab.js"><link rel="prefetch" href="/assets/js/102.58e2d8fd.js"><link rel="prefetch" href="/assets/js/103.15d8d35e.js"><link rel="prefetch" href="/assets/js/104.01770a92.js"><link rel="prefetch" href="/assets/js/105.46cbcd61.js"><link rel="prefetch" href="/assets/js/106.70d07cff.js"><link rel="prefetch" href="/assets/js/107.0ae6ada9.js"><link rel="prefetch" href="/assets/js/108.9e3d1482.js"><link rel="prefetch" href="/assets/js/109.ce5c6d7e.js"><link rel="prefetch" href="/assets/js/11.c1cd511b.js"><link rel="prefetch" href="/assets/js/110.0af391f8.js"><link rel="prefetch" href="/assets/js/111.e453dc09.js"><link rel="prefetch" href="/assets/js/112.a201c634.js"><link rel="prefetch" href="/assets/js/113.72340db9.js"><link rel="prefetch" href="/assets/js/114.c8fd3990.js"><link rel="prefetch" href="/assets/js/115.bfe6907e.js"><link rel="prefetch" href="/assets/js/116.b976f65a.js"><link rel="prefetch" href="/assets/js/117.7158f347.js"><link rel="prefetch" href="/assets/js/118.ac6b75dd.js"><link rel="prefetch" href="/assets/js/119.ea98f2d6.js"><link rel="prefetch" href="/assets/js/12.d236b6fd.js"><link rel="prefetch" href="/assets/js/120.1064d6bf.js"><link rel="prefetch" href="/assets/js/121.f0bf18ad.js"><link rel="prefetch" href="/assets/js/122.a105d8be.js"><link rel="prefetch" href="/assets/js/123.e1ec67e0.js"><link rel="prefetch" href="/assets/js/124.fd5713d3.js"><link rel="prefetch" href="/assets/js/125.33a06121.js"><link rel="prefetch" href="/assets/js/126.5836ac20.js"><link rel="prefetch" href="/assets/js/127.164ca213.js"><link rel="prefetch" href="/assets/js/128.c4c08d99.js"><link rel="prefetch" href="/assets/js/129.d3eeed23.js"><link rel="prefetch" href="/assets/js/13.9ab5dcb4.js"><link rel="prefetch" href="/assets/js/130.0c3d554a.js"><link rel="prefetch" href="/assets/js/131.88fe7398.js"><link rel="prefetch" href="/assets/js/132.ba12c6d5.js"><link rel="prefetch" href="/assets/js/133.396fb2df.js"><link rel="prefetch" href="/assets/js/134.fb0e060d.js"><link rel="prefetch" href="/assets/js/135.782755c0.js"><link rel="prefetch" href="/assets/js/136.647bdd30.js"><link rel="prefetch" href="/assets/js/137.d5e547c9.js"><link rel="prefetch" href="/assets/js/138.d0c64bd4.js"><link rel="prefetch" href="/assets/js/139.9373935d.js"><link rel="prefetch" href="/assets/js/14.d734ecb7.js"><link rel="prefetch" href="/assets/js/140.65e3d3b4.js"><link rel="prefetch" href="/assets/js/141.ac866570.js"><link rel="prefetch" href="/assets/js/142.64f5cd54.js"><link rel="prefetch" href="/assets/js/143.d1070150.js"><link rel="prefetch" href="/assets/js/144.049d7e69.js"><link rel="prefetch" href="/assets/js/145.ca49743f.js"><link rel="prefetch" href="/assets/js/146.c4a8f701.js"><link rel="prefetch" href="/assets/js/147.6147a5ff.js"><link rel="prefetch" href="/assets/js/148.f218203c.js"><link rel="prefetch" href="/assets/js/149.cc32d9a3.js"><link rel="prefetch" href="/assets/js/15.8278285e.js"><link rel="prefetch" href="/assets/js/150.f5f94963.js"><link rel="prefetch" href="/assets/js/151.54fd2b26.js"><link rel="prefetch" href="/assets/js/152.9becbe40.js"><link rel="prefetch" href="/assets/js/153.d0833c5e.js"><link rel="prefetch" href="/assets/js/154.e15da156.js"><link rel="prefetch" href="/assets/js/155.ecb67836.js"><link rel="prefetch" href="/assets/js/156.d10ecb32.js"><link rel="prefetch" href="/assets/js/157.6f9b0a34.js"><link rel="prefetch" href="/assets/js/158.a05039a8.js"><link rel="prefetch" href="/assets/js/159.e2302928.js"><link rel="prefetch" href="/assets/js/16.42aadd8d.js"><link rel="prefetch" href="/assets/js/160.cd7223d5.js"><link rel="prefetch" href="/assets/js/161.912e884c.js"><link rel="prefetch" href="/assets/js/162.bc0e6c04.js"><link rel="prefetch" href="/assets/js/163.0b03e922.js"><link rel="prefetch" href="/assets/js/164.f30f811b.js"><link rel="prefetch" href="/assets/js/165.7cd7bc3c.js"><link rel="prefetch" href="/assets/js/166.6ab97bfa.js"><link rel="prefetch" href="/assets/js/167.4f773fcf.js"><link rel="prefetch" href="/assets/js/168.95706256.js"><link rel="prefetch" href="/assets/js/169.27cc0ac3.js"><link rel="prefetch" href="/assets/js/17.d71d2778.js"><link rel="prefetch" href="/assets/js/170.c3665b66.js"><link rel="prefetch" href="/assets/js/171.34e29ebe.js"><link rel="prefetch" href="/assets/js/172.67e583e6.js"><link rel="prefetch" href="/assets/js/173.82f06268.js"><link rel="prefetch" href="/assets/js/174.2cc96802.js"><link rel="prefetch" href="/assets/js/175.69ced9e2.js"><link rel="prefetch" href="/assets/js/176.8fb57d09.js"><link rel="prefetch" href="/assets/js/177.0f17d252.js"><link rel="prefetch" href="/assets/js/178.567cbeb0.js"><link rel="prefetch" href="/assets/js/179.15cbe65f.js"><link rel="prefetch" href="/assets/js/18.2644fb9c.js"><link rel="prefetch" href="/assets/js/180.64174e48.js"><link rel="prefetch" href="/assets/js/181.434091f9.js"><link rel="prefetch" href="/assets/js/182.66820176.js"><link rel="prefetch" href="/assets/js/183.8ba909ac.js"><link rel="prefetch" href="/assets/js/184.7dcfeef5.js"><link rel="prefetch" href="/assets/js/185.197c43f3.js"><link rel="prefetch" href="/assets/js/186.413df751.js"><link rel="prefetch" href="/assets/js/187.63cac191.js"><link rel="prefetch" href="/assets/js/188.e59d510c.js"><link rel="prefetch" href="/assets/js/189.9b930075.js"><link rel="prefetch" href="/assets/js/19.d407fce5.js"><link rel="prefetch" href="/assets/js/190.bc7edc5a.js"><link rel="prefetch" href="/assets/js/191.00ca65af.js"><link rel="prefetch" href="/assets/js/20.41995a7b.js"><link rel="prefetch" href="/assets/js/21.22a7bd24.js"><link rel="prefetch" href="/assets/js/22.5c9267aa.js"><link rel="prefetch" href="/assets/js/23.c59a98eb.js"><link rel="prefetch" href="/assets/js/24.a8902185.js"><link rel="prefetch" href="/assets/js/25.ca3e11fe.js"><link rel="prefetch" href="/assets/js/26.a468a3f6.js"><link rel="prefetch" href="/assets/js/28.c3ddd663.js"><link rel="prefetch" href="/assets/js/29.23f0e08a.js"><link rel="prefetch" href="/assets/js/3.71844185.js"><link rel="prefetch" href="/assets/js/30.f4361a1b.js"><link rel="prefetch" href="/assets/js/31.9d53fbf5.js"><link rel="prefetch" href="/assets/js/32.64f031f4.js"><link rel="prefetch" href="/assets/js/33.95442354.js"><link rel="prefetch" href="/assets/js/34.ab500de4.js"><link rel="prefetch" href="/assets/js/35.a1935716.js"><link rel="prefetch" href="/assets/js/36.18f68970.js"><link rel="prefetch" href="/assets/js/37.ae59e4aa.js"><link rel="prefetch" href="/assets/js/38.4123391f.js"><link rel="prefetch" href="/assets/js/39.27116b2f.js"><link rel="prefetch" href="/assets/js/4.e7bf017d.js"><link rel="prefetch" href="/assets/js/40.cad0a1d6.js"><link rel="prefetch" href="/assets/js/41.20b0378b.js"><link rel="prefetch" href="/assets/js/42.ff1b5dc7.js"><link rel="prefetch" href="/assets/js/43.1e6319b6.js"><link rel="prefetch" href="/assets/js/44.6989990a.js"><link rel="prefetch" href="/assets/js/45.e9155d27.js"><link rel="prefetch" href="/assets/js/46.5830de6f.js"><link rel="prefetch" href="/assets/js/47.d6c37398.js"><link rel="prefetch" href="/assets/js/48.5a8342b9.js"><link rel="prefetch" href="/assets/js/49.8ddf2562.js"><link rel="prefetch" href="/assets/js/5.f222cad7.js"><link rel="prefetch" href="/assets/js/50.44d65d68.js"><link rel="prefetch" href="/assets/js/51.47e303ac.js"><link rel="prefetch" href="/assets/js/52.d9f7f30f.js"><link rel="prefetch" href="/assets/js/53.258cc074.js"><link rel="prefetch" href="/assets/js/54.949452fb.js"><link rel="prefetch" href="/assets/js/55.c6d3c124.js"><link rel="prefetch" href="/assets/js/56.5c69bad6.js"><link rel="prefetch" href="/assets/js/57.d40aae00.js"><link rel="prefetch" href="/assets/js/58.daeb6408.js"><link rel="prefetch" href="/assets/js/59.eb886e62.js"><link rel="prefetch" href="/assets/js/6.97a275bc.js"><link rel="prefetch" href="/assets/js/60.6c306f4a.js"><link rel="prefetch" href="/assets/js/61.744e2e1e.js"><link rel="prefetch" href="/assets/js/62.f8935617.js"><link rel="prefetch" href="/assets/js/63.c627a9f2.js"><link rel="prefetch" href="/assets/js/64.1f6aa391.js"><link rel="prefetch" href="/assets/js/65.269ec767.js"><link rel="prefetch" href="/assets/js/66.7b5e6bba.js"><link rel="prefetch" href="/assets/js/67.c9f26139.js"><link rel="prefetch" href="/assets/js/68.7c979c19.js"><link rel="prefetch" href="/assets/js/69.9007bfcb.js"><link rel="prefetch" href="/assets/js/7.ebe910cf.js"><link rel="prefetch" href="/assets/js/70.26aad517.js"><link rel="prefetch" href="/assets/js/71.d83c7f39.js"><link rel="prefetch" href="/assets/js/72.8ffb0840.js"><link rel="prefetch" href="/assets/js/73.c769a9a7.js"><link rel="prefetch" href="/assets/js/74.81da336f.js"><link rel="prefetch" href="/assets/js/75.5f6c1707.js"><link rel="prefetch" href="/assets/js/76.02ef309f.js"><link rel="prefetch" href="/assets/js/77.d8b1689e.js"><link rel="prefetch" href="/assets/js/78.e4857538.js"><link rel="prefetch" href="/assets/js/79.78d58e9d.js"><link rel="prefetch" href="/assets/js/8.37112c04.js"><link rel="prefetch" href="/assets/js/80.cda8d0b6.js"><link rel="prefetch" href="/assets/js/81.16d9b5ec.js"><link rel="prefetch" href="/assets/js/82.02977a6b.js"><link rel="prefetch" href="/assets/js/83.0a17acf3.js"><link rel="prefetch" href="/assets/js/84.5970a863.js"><link rel="prefetch" href="/assets/js/85.fb387508.js"><link rel="prefetch" href="/assets/js/86.fb1a1185.js"><link rel="prefetch" href="/assets/js/87.9ef54553.js"><link rel="prefetch" href="/assets/js/88.96147de1.js"><link rel="prefetch" href="/assets/js/89.db5101c1.js"><link rel="prefetch" href="/assets/js/9.f53137d0.js"><link rel="prefetch" href="/assets/js/90.90d1325d.js"><link rel="prefetch" href="/assets/js/91.1a99a31a.js"><link rel="prefetch" href="/assets/js/92.ec521319.js"><link rel="prefetch" href="/assets/js/93.a9fdab84.js"><link rel="prefetch" href="/assets/js/94.e80c29ae.js"><link rel="prefetch" href="/assets/js/95.43bb2ce2.js"><link rel="prefetch" href="/assets/js/96.71fdec1e.js"><link rel="prefetch" href="/assets/js/97.78fa1703.js"><link rel="prefetch" href="/assets/js/98.3bda9f7c.js"><link rel="prefetch" href="/assets/js/99.eedeb36e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.03925f33.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Atrist</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/front/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/know/front/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/know/javascript/" class="nav-link">
+  Javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工程化
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/engineering/npm/" class="nav-link">
+  npm
+</a></li><li class="dropdown-subitem"><a href="/know/engineering/webpack/" class="nav-link">
+  webpack
+</a></li><li class="dropdown-subitem"><a href="/know/engineering/react/" class="nav-link">
+  react
+</a></li></ul></li><li class="dropdown-item"><h4>
+          计算机基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/computer/algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-subitem"><a href="/know/computer/data/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-subitem"><a href="/know/computer/network/" class="nav-link">
+  网络
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/tool/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-subitem"><a href="/know/tool/vscode/" class="nav-link">
+  vscode
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="解决方案" class="dropdown-title"><span class="title">解决方案</span> <span class="arrow down"></span></button> <button type="button" aria-label="解决方案" class="mobile-dropdown-title"><span class="title">解决方案</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/answer/common/" class="nav-link">
+  通用
+</a></li><li class="dropdown-item"><h4>
+          音视频
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/answer/webRTC/" class="nav-link router-link-active">
+  webRTC
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="源码阅读" class="dropdown-title"><span class="title">源码阅读</span> <span class="arrow down"></span></button> <button type="button" aria-label="源码阅读" class="mobile-dropdown-title"><span class="title">源码阅读</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/code/npm/" class="nav-link">
+  npm包
+</a></li><li class="dropdown-item"><!----> <a href="/code/react/" class="nav-link">
+  react系列
+</a></li><li class="dropdown-item"><!----> <a href="/code/opensource/" class="nav-link">
+  开源源码阅读
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目集成" class="dropdown-title"><span class="title">项目集成</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目集成" class="mobile-dropdown-title"><span class="title">项目集成</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/workshop/cli/" class="nav-link">
+  Cli
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/front/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/know/front/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/know/javascript/" class="nav-link">
+  Javascript
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工程化
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/engineering/npm/" class="nav-link">
+  npm
+</a></li><li class="dropdown-subitem"><a href="/know/engineering/webpack/" class="nav-link">
+  webpack
+</a></li><li class="dropdown-subitem"><a href="/know/engineering/react/" class="nav-link">
+  react
+</a></li></ul></li><li class="dropdown-item"><h4>
+          计算机基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/computer/algorithm/" class="nav-link">
+  算法
+</a></li><li class="dropdown-subitem"><a href="/know/computer/data/" class="nav-link">
+  数据结构
+</a></li><li class="dropdown-subitem"><a href="/know/computer/network/" class="nav-link">
+  网络
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/know/tool/git/" class="nav-link">
+  git
+</a></li><li class="dropdown-subitem"><a href="/know/tool/vscode/" class="nav-link">
+  vscode
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="解决方案" class="dropdown-title"><span class="title">解决方案</span> <span class="arrow down"></span></button> <button type="button" aria-label="解决方案" class="mobile-dropdown-title"><span class="title">解决方案</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/answer/common/" class="nav-link">
+  通用
+</a></li><li class="dropdown-item"><h4>
+          音视频
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/answer/webRTC/" class="nav-link router-link-active">
+  webRTC
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="源码阅读" class="dropdown-title"><span class="title">源码阅读</span> <span class="arrow down"></span></button> <button type="button" aria-label="源码阅读" class="mobile-dropdown-title"><span class="title">源码阅读</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/code/npm/" class="nav-link">
+  npm包
+</a></li><li class="dropdown-item"><!----> <a href="/code/react/" class="nav-link">
+  react系列
+</a></li><li class="dropdown-item"><!----> <a href="/code/opensource/" class="nav-link">
+  开源源码阅读
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目集成" class="dropdown-title"><span class="title">项目集成</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目集成" class="mobile-dropdown-title"><span class="title">项目集成</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/workshop/cli/" class="nav-link">
+  Cli
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><a href="/answer/webRTC/" class="sidebar-heading clickable router-link-active open"><span>webRTC</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/answer/webRTC/01-前置知识.html" class="sidebar-link">前置知识</a></li><li><a href="/answer/webRTC/02-RTCPeerConnection.html" aria-current="page" class="active sidebar-link">RTCPeerConnection</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/answer/webRTC/02-RTCPeerConnection.html#rtcpeerconnection-2" class="sidebar-link">RTCPeerConnection()</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/answer/webRTC/02-RTCPeerConnection.html#语法" class="sidebar-link">语法</a></li></ul></li><li class="sidebar-sub-header"><a href="/answer/webRTC/02-RTCPeerConnection.html#createoffer" class="sidebar-link">createOffer()</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/answer/webRTC/02-RTCPeerConnection.html#参数" class="sidebar-link">参数</a></li></ul></li><li class="sidebar-sub-header"><a href="/answer/webRTC/02-RTCPeerConnection.html#参考资料" class="sidebar-link">参考资料</a></li></ul></li><li><a href="/answer/webRTC/03-实践.html" class="sidebar-link">实践</a></li></ul></section></li><li><section class="sidebar-group depth-0"><a href="/answer/webRTC/janus/" class="sidebar-heading clickable"><span>Janus</span> <!----></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/answer/webRTC/janus/01-init.html" class="sidebar-link">init</a></li><li><a href="/answer/webRTC/janus/02-janus.html" class="sidebar-link">janus</a></li><li><a href="/answer/webRTC/janus/03-attach.html" class="sidebar-link">attach</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="rtcpeerconnection"><a href="#rtcpeerconnection" class="header-anchor">#</a> RTCPeerConnection</h1> <p>浏览器端最重要的webrtc api之一，它是一个类，包含了许多函数，在这里介绍在一次webrtc建立的过程中，所涉及到API</p> <h2 id="rtcpeerconnection-2"><a href="#rtcpeerconnection-2" class="header-anchor">#</a> RTCPeerConnection()</h2> <p>RTCPeerConnection() 构造函数，返回一个新建的  <code>RTCPeerConnection</code> 实例，它代表了本地端机器与远端机器的一条连接。</p> <h3 id="语法"><a href="#语法" class="header-anchor">#</a> 语法</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> pc <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">RTCPeerConnection</span><span class="token punctuation">(</span>config<span class="token punctuation">)</span>
+</code></pre></div><p>可以传入一个带有配置信息的对象，用于对定制化的配置 此次连接。</p> <p>一般设置的话，会传入一个 iceServe 的地址，为了能够更加成功的建立连接，开发这一般需要一个属于自己的stun服务器。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> config <span class="token operator">=</span><span class="token punctuation">{</span>
+    iceServers<span class="token operator">:</span> <span class="token punctuation">[</span>     <span class="token comment">// Information about ICE servers - Use your own!</span>
+        <span class="token punctuation">{</span>
+          urls<span class="token operator">:</span> <span class="token string">&quot;stun:stun.stunprotocol.org&quot;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="createoffer"><a href="#createoffer" class="header-anchor">#</a> createOffer()</h2> <p>创建一个SDP offer，目的是启动一个新的WebRTC去连接远程端点。SDP offer包含有关已附加到WebRTC会话，浏览器支持的编解码器和选项的所有MediaStreamTracks信息，以及ICE 代理，目的是通过信令信道发送给潜在远程端点，以请求连接或更新现有连接的配置。</p> <h3 id="参数"><a href="#参数" class="header-anchor">#</a> 参数</h3> <ul><li>offerToReceiveAudio:布尔类型, 用于控制是否向远程对等方提供尝试发送音频的机会。</li> <li>offerToReceiveVideo:布尔类型,  用于控制是否向远程对等方提供尝试发送视频的机会。</li></ul> <p>这两个参数可以用来在 webrtc 实现单纯的从远端进行音视频的拉流，类似于直播的功能。</p> <div class="language-js extra-class"><pre class="language-js"><code>
+</code></pre></div><h2 id="参考资料"><a href="#参考资料" class="header-anchor">#</a> 参考资料</h2> <ol><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/RTCPeerConnection/RTCPeerConnection" target="_blank" rel="noopener noreferrer">RTCPeerConnection<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li> <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/createOffer" target="_blank" rel="noopener noreferrer">createOffer<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/answer/webRTC/01-前置知识.html" class="prev">
+        前置知识
+      </a></span> <span class="next"><a href="/answer/webRTC/03-实践.html">
+        实践
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.4fdca032.js" defer></script><script src="/assets/js/2.4cfc0aaf.js" defer></script><script src="/assets/js/27.dd055a0f.js" defer></script>
+  </body>
+</html>

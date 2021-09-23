@@ -2,19 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://atrist.github.io</id>
     <title>Atrist</title>
-    <updated>2021-09-23T00:39:30.144Z</updated>
+    <updated>2021-09-23T12:17:48.437Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://atrist.github.io"/>
     <link rel="self" href="https://atrist.github.io/feed.atom"/>
     <subtitle>前端的基础知识集中, 相关业务场景的解决方案集中, 项目源码阅读过程中的一些感悟</subtitle>
-    <entry>
-        <title type="html"><![CDATA[1221. 分割平衡字符串]]></title>
-        <id>https://atrist.github.io/posts/1221.%20%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.html</id>
-        <link href="https://atrist.github.io/posts/1221.%20%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
-        </link>
-        <updated>2021-09-07T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[在一个 平衡字符串 中，'L' 和 'R' 字符的数量是相同的。]]></summary>
-    </entry>
     <entry>
         <title type="html"><![CDATA[1109. 航班预订统计]]></title>
         <id>https://atrist.github.io/posts/1109.%20%E8%88%AA%E7%8F%AD%E9%A2%84%E8%AE%A2%E7%BB%9F%E8%AE%A1.html</id>
@@ -22,6 +14,14 @@
         </link>
         <updated>2021-08-31T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[这里有 n 个航班，它们分别从 1 到 n 进行编号。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1221. 分割平衡字符串]]></title>
+        <id>https://atrist.github.io/posts/1221.%20%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.html</id>
+        <link href="https://atrist.github.io/posts/1221.%20%E5%88%86%E5%89%B2%E5%B9%B3%E8%A1%A1%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
+        </link>
+        <updated>2021-09-07T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在一个 平衡字符串 中，'L' 和 'R' 字符的数量是相同的。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[1480. 一维数组的动态和]]></title>
@@ -96,6 +96,14 @@
         <summary type="html"><![CDATA[你和你的朋友，两个人一起玩 Nim 游戏：]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[326. 3的幂]]></title>
+        <id>https://atrist.github.io/posts/326.%203%E7%9A%84%E5%B9%82.html</id>
+        <link href="https://atrist.github.io/posts/326.%203%E7%9A%84%E5%B9%82.html">
+        </link>
+        <updated>2021-09-23T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[给定一个整数，写一个函数来判断它是否是 3 的幂次方。如果是，返回 true ；否则，返回 false 。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[36. 有效的数独]]></title>
         <id>https://atrist.github.io/posts/36.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.html</id>
         <link href="https://atrist.github.io/posts/36.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.html">
@@ -158,13 +166,5 @@
         </link>
         <updated>2021-09-12T10:00:00.000Z</updated>
         <summary type="html"><![CDATA[给定一个只包含三种字符的字符串：（ ，） 和 *，写一个函数来检验这个字符串是否为有效字符串。有效字符串具有如下规则：]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[68. 文本左右对齐]]></title>
-        <id>https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html</id>
-        <link href="https://atrist.github.io/posts/68.%20%E6%96%87%E6%9C%AC%E5%B7%A6%E5%8F%B3%E5%AF%B9%E9%BD%90.html">
-        </link>
-        <updated>2021-09-09T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[给定一个单词数组和一个长度 maxWidth，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。]]></summary>
     </entry>
 </feed>
