@@ -97,6 +97,13 @@
             "date_modified": "2021-09-17T10:00:00.000Z"
         },
         {
+            "id": "https://atrist.github.io/posts/430.%20%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.html",
+            "url": "https://atrist.github.io/posts/430.%20%E6%89%81%E5%B9%B3%E5%8C%96%E5%A4%9A%E7%BA%A7%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.html",
+            "title": "430. 扁平化多级双向链表",
+            "summary": "多级双向链表中，除了指向下一个节点和前一个节点指针之外，它还有一个子链表指针，可能指向单独的双向链表。这些子列表也可能会有一个或多个自己的子项，依此类推，生成多级数据结构，如下面的示例所示。",
+            "date_modified": "2021-09-24T10:00:00.000Z"
+        },
+        {
             "id": "https://atrist.github.io/posts/447.%20%E5%9B%9E%E6%97%8B%E9%95%96%E7%9A%84%E6%95%B0%E9%87%8F.html",
             "url": "https://atrist.github.io/posts/447.%20%E5%9B%9E%E6%97%8B%E9%95%96%E7%9A%84%E6%95%B0%E9%87%8F.html",
             "title": "447. 回旋镖的数量",
@@ -138,13 +145,6 @@
             "title": "600. 不含连续1的非负整数",
             "summary": "给定一个正整数 n，找出小于或等于 n 的非负整数中，其二进制表示不包含 连续的1 的个数。",
             "date_modified": "2021-09-11T10:00:00.000Z"
-        },
-        {
-            "id": "https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html",
-            "url": "https://atrist.github.io/posts/678.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E5%AD%97%E7%AC%A6%E4%B8%B2.html",
-            "title": "678. 有效的括号字符串",
-            "summary": "给定一个只包含三种字符的字符串：（ ，） 和 *，写一个函数来检验这个字符串是否为有效字符串。有效字符串具有如下规则：",
-            "date_modified": "2021-09-12T10:00:00.000Z"
         }
     ]
 }
